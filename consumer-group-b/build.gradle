@@ -16,8 +16,11 @@ repositories {
 
 dependencies {
     // provided dependencies
-    providedCompile 'jakarta.platform:jakarta.jakartaee-api:11.0.0' 
-    providedCompile 'org.eclipse.microprofile:microprofile:7.1' 
+    providedCompile 'jakarta.platform:jakarta.jakartaee-api:10.0.0'
+    providedCompile 'org.eclipse.microprofile:microprofile:7.1'
+    providedCompile 'org.eclipse.microprofile.reactive.messaging:microprofile-reactive-messaging-api:3.0'
+    // Source: https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+    implementation("org.apache.kafka:kafka-clients:4.3.0")
 
 }
 

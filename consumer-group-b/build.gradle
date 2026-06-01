@@ -6,8 +6,6 @@ plugins {
 version '1.0-SNAPSHOT'
 group 'io.openliberty.example.messaging'
 
-sourceCompatibility = 21
-targetCompatibility = 21
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }

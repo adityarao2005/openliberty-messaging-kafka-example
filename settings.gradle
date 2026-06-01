@@ -1,0 +1,3 @@
+rootProject.name = "openliberty-messaging-kafka-example"
+
+include("rest-publisher", "consumer-group-a", "consumer-group-b")
